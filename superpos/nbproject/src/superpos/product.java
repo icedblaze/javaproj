@@ -27,43 +27,11 @@ public class product extends javax.swing.JFrame {
     public product() {
         initComponents();
         table_update();
-        category();
-        brand();
     }
     Connection con1;
     PreparedStatement pst;
     
-    public class CategoryItem
-    {
-        int id;
-        String name;
-        
-        public CategoryItem(int id,String name){
-            this.id=id;
-            this.name=name;
-        }
-        
-        public String toString(){
-            return name;
-            
-        }
-    }
-
-     public class BrandItem
-    {
-        int id;
-        String name;
-        
-        public BrandItem(int id,String name){
-            this.id=id;
-            this.name=name;
-        }
-        
-        public String toString(){
-            return name;
-            
-        }
-    }
+    
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
