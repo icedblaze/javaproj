@@ -20,7 +20,7 @@ import javax.swing.table.DefaultTableModel;
  *
  * @author Ashwi
  */
-public class category extends javax.swing.JFrame {
+public class category extends product {
 
     /**
      * Creates new form category
@@ -28,6 +28,7 @@ public class category extends javax.swing.JFrame {
     public category() {
         initComponents();
         table_update();
+        super();
     }
     Connection con1;
     PreparedStatement pst;
